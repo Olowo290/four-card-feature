@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+html{
+    font-size: 62.8%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+main{
+    padding: 5em;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.super,.calc{
+    align-self: center;
+}
+.image{
+    text-align: right;
+    margin-top: 2em;
+}
+img{
+    width: 50px;
+}
+.grid-container{
+    display:flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+.child{
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2.5em;
+    box-shadow: 1px 4px 9px 0px rgba(0,0,0,0.25);
+}
+p,.head{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+p{
+    font-size: 1.2rem;
+}
+header p{
+    max-width: 400px;
+    margin: 1.7em auto;
+}
+h1,h2{
+    color: hsl(234, 12%, 34%);
+}
+.super{
+    border-top: 2px solid hsl(180, 62%, 55%);
+}
+.team{
+    border-top: 2px solid hsl(0, 78%, 62%);
+}
+.karma{
+    margin-top: 1.5em;
+    border-top: 2px solid hsl(34, 97%, 64%);
+}
+.calc{
+    border-top: 2px solid hsl(212, 86%, 64%);
+}
+/* setting font sizes */
+.head{
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin-bottom: .2em;
+}
+.sec-head{
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+.grid-container h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+.attribution { 
+    font-size: 1.2rem;
+    text-align: center; 
+    color: #000;
+    font-weight: bold;
+}
+.attribution a {
+    color: hsl(315, 100%, 52%);
+    text-decoration: none;
+ }
+
+ @media screen and (width < 400px) {
+    main{
+        padding: 1.8em 1.3em;
+    }
+    .grid-container{
+        flex-direction: column;
+    }
+    
+ }
